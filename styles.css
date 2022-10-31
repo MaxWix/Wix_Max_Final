@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family:Nobile;
+    src: url('Fonts/Nobile-Regular.ttf');
 }
 @font-face {
     font-family: ;
@@ -10,4 +10,6 @@
 .PortTitle{}
 .PortHeading{}
 
-p.port
+html {
+    font-family: 'Times New Roman', Times, serif ;
+}
