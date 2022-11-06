@@ -7,9 +7,43 @@
     src: url();
 }
 
+html {
+    font-family: Nobile,Arial, Helvetica, sans-serif ;
+}
+
+body {
+    background-color:#fcf9de;
+    margin: 2rem auto;
+    max-width: 800px;
+
+}
+nav {
+    float: right;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    margin: 0 auto 1rem auto;
+}
+
 .PortTitle{}
 .PortHeading{}
 
-html {
-    font-family: 'Times New Roman', Times, serif ;
+p {
+    font-family:Nobile,Arial, Helvetica, sans-serif;
+    font-size:1.125rem;
+   }
+
+h1.PortHeading {
+
 }
+
+h1.PortTitle {
+
+}
+
+h2{
+
+}
+  
