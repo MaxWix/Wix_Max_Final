@@ -27,13 +27,35 @@ img{
     margin: 0 auto 1rem auto;
 }
 
-.PortTitle{}
-.PortHeading{}
+h1 {
+    font-size: 6rem;
+    margin: 2rem auto 0 auto;
+    Font-weight: bold;
+}
+
+h2 {
+    font-size:4rem;
+    Margin: 4rem auto 0 0;
+}
 
 p {
     font-family:Nobile,Arial, Helvetica, sans-serif;
     font-size:1.125rem;
+    margin: .5rem auto 3rem 0;
    }
+
+p.title {
+    font-weight:bold;
+    margin: auto auto .5rem auto;
+}
+
+ol {
+    margin: auto auto 2.5rem auto;
+}
+
+span.bold{
+    font-weight:bold;
+}
 
 h1.PortHeading {
 
