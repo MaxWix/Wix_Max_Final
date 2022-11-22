@@ -1,3 +1,8 @@
+* {
+    box-sizing:border-box;
+}
+
+
 @font-face {
     font-family:Nobile;
     src: url('Fonts/Nobile-Regular.ttf');
@@ -6,25 +11,13 @@
     font-family: ;
     src: url();
 }
-
 html {
     font-family: Nobile,Arial, Helvetica, sans-serif ;
 }
 
 body {
-    background-color:#fcf9de;
-    margin: 2rem auto;
-    max-width: 800px;
-
-}
-nav {
-    float: right;
-}
-
-img{
-    max-width:100%;
-    height:auto;
-    margin: 0 auto 1rem auto;
+    background-color:#ffffff;
+    margin: 0;
 }
 
 h1 {
@@ -44,6 +37,111 @@ p {
     margin: .5rem auto 3rem 0;
    }
 
+
+.head {
+   background-color: #B2D3BE;
+}
+
+.headimg {
+    width:100%;
+    border: 0;   
+}
+
+nav {
+    float: right;
+}
+
+.headcon {
+    position:relative;
+    width:100%
+}
+
+.headtext {
+    position:absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.subheadtext{
+    font-size: 8rem;
+    margin: 0 0 2rem 0;
+}
+
+.sub2headtext{
+    font-size:2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.boardcon {
+    position:relative;
+    width:100%;
+}
+
+.boardtext {
+    position: absolute;
+    bottom: 74%;
+    right: 9%;
+    height: 45rem;
+    background-color:#89A3B2;
+    color: white;
+    width: 50rem;
+    opacity:98%;
+}
+
+.h2con {
+    position:relative;
+    width:100%;
+}
+
+.h2text {
+    position: absolute;
+    bottom: 60%;
+    right: 9%;
+    height: 45rem;
+    background-color:#5E6073;
+    color: white;
+    width: 50rem;
+    opacity:98%;
+}
+
+.hometext {
+    font-size: 4rem;
+    padding-left: 8rem;
+    margin: 6rem auto 3rem auto;
+}
+
+.jervotext {
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    height: 45rem;
+    background-color:#B2D3BE;
+    color: white;
+    width: 50rem;
+    opacity:98%;
+}
+
+.hometext {
+    font-size: 4rem;
+    padding-left: 8rem;
+    margin: 6rem auto 3rem auto;
+}
+
+h5+p {
+    font-size: 3rem;
+    margin: 0 auto 3rem auto;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+h5+p+p {
+    font-size: 3rem;
+    margin: 11rem auto 3rem auto;
+    padding-left: 8rem;
+    padding-right: 8rem;    
+}
+
+
 p.title {
     font-weight:bold;
     margin: auto auto .5rem auto;
@@ -52,20 +150,3 @@ p.title {
 ol {
     margin: auto auto 2.5rem auto;
 }
-
-span.bold{
-    font-weight:bold;
-}
-
-h1.PortHeading {
-
-}
-
-h1.PortTitle {
-
-}
-
-h2{
-
-}
-  
