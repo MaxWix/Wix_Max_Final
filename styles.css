@@ -17,29 +17,34 @@ html {
 
 body {
     background-color:#ffffff;
-    margin: 0;
+    margin:0;
 }
 
 h1 {
     font-size: 6rem;
-    margin: 2rem auto 0 auto;
+    margin: 7rem 3rem 0 3rem;
     Font-weight: bold;
 }
 
 h2 {
-    font-size:4rem;
-    Margin: 4rem auto 0 0;
+    font-size:3rem;
+    Margin: 7rem 3rem 3rem 3rem;
 }
 
 p {
     font-family:Nobile,Arial, Helvetica, sans-serif;
-    font-size:1.125rem;
-    margin: .5rem auto 3rem 0;
+    font-size:1rem;
+    margin: .5rem 3rem 3rem 3rem;
    }
 
 
 .head {
    background-color: #B2D3BE;
+}
+
+img {
+    width:100%;
+    height:100%;
 }
 
 .headimg {
@@ -51,6 +56,12 @@ nav {
     float: right;
 }
 
+p.title{
+    margin: .5rem 3rem 0 3rem;
+    font-weight:bold;
+}
+
+/** Home Page **/
 .headcon {
     position:relative;
     width:100%
@@ -142,11 +153,38 @@ h5+p+p {
 }
 
 
-p.title {
-    font-weight:bold;
-    margin: auto auto .5rem auto;
+ol, ul {
+    margin: auto auto 2.5rem 3rem;
 }
 
-ol {
-    margin: auto auto 2.5rem auto;
+/** about page **/
+
+.abtitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem auto 3rem auto;
+
+}
+
+.abtext {
+    font-size: 1rem;
+    padding:0;
+    margin: 1rem 3rem 3rem 3rem;
+}
+
+.abtexta {
+    font-size: 1rem;
+    padding:0;
+    margin: 0 0 .2rem 3rem;
+
+}
+
+.abtexta+h5 {
+    margin:.2rem 0 1rem 3rem;
+    font-weight: bold;
+}
+
+.ablist{
+    margin: 3rem 3rem 0 3rem;
 }
