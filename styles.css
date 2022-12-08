@@ -43,7 +43,7 @@ h2 {
     font-size:3rem;
     Margin: 3rem 3rem 1rem 3rem;
     font-family: 'poltawskinowy',Arial, Helvetica, sans-serif;
-}å
+}
 
 p {
     font-family: 'poltawskinowy',Arial, Helvetica, sans-serif;
@@ -54,6 +54,7 @@ p {
 
 .caseheadtext {
     position: absolute;
+    font-size:2rem;
     right:5rem;
     top: 1rem;
     font-size:4rem;
